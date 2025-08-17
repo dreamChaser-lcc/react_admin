@@ -109,7 +109,7 @@ export default defineConfig({
   ...deployConfig,
   proxy: {
     '/api': {
-      target: 'http://licc.cloud:8006',
+      target: 'http://106.14.53.137:8006',
       changeOrigin: true,
       pathRewrite: { '^/api': '' },
     },

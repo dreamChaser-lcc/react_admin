@@ -1,9 +1,9 @@
 
 # 在线链接
 
-[项目地址](http://licc.cloud/admin/)
+[项目地址](http://106.14.53.137/admin/)
 
-[组件库文档地址](http://licc.cloud/stars-lib-docs/)
+[组件库文档地址](http://106.14.53.137/stars-lib-docs/)
 
 [umiV3官方文档](https://v3.umijs.org/config)
 

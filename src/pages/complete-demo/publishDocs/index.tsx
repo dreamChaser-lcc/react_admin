@@ -9,7 +9,7 @@ import ProCard from '@/component/ProCard';
 import { Button, Space } from 'antd';
 export default () => {
   const handleJumpToDocs = () => {
-    window.open('http://licc.cloud/stars-lib-docs/');
+    window.open('http://106.14.53.137/stars-lib-docs/');
   };
   return (
     <>
@@ -23,7 +23,7 @@ export default () => {
 
         <iframe
           style={{ width: '100%', minHeight: '450px', marginTop: 10 }}
-          src="http://licc.cloud/stars-lib-docs/"
+          src="http://106.14.53.137/stars-lib-docs/"
         >
           <p>您的浏览器不支持 iframe 标签。</p>
         </iframe>

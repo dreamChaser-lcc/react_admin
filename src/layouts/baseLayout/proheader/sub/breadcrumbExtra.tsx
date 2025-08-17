@@ -7,17 +7,13 @@
  */
 import { FC, memo } from 'react';
 // 方法
-import { history } from 'umi';
 import { clearRemenber } from '@/utils/login.utils';
+import { history } from 'umi';
 // 组件
 import MyIcon from '@/component/myIcon';
 import SearchRoute from '@/component/searchRoute';
-import {
-  PieChartOutlined,
-  GithubOutlined,
-  AlertOutlined,
-} from '@ant-design/icons';
-import { Avatar, Dropdown, Menu, Space, Badge } from 'antd';
+import { GithubOutlined, PieChartOutlined } from '@ant-design/icons';
+import { Avatar, Dropdown, Menu, Space } from 'antd';
 
 const BreadcrumbExtra: FC = () => {
   const memuConfig = [
@@ -26,7 +22,7 @@ const BreadcrumbExtra: FC = () => {
       children: '组件库文档',
       icon: <PieChartOutlined />,
       onClick: () => {
-        window.open('http://licc.cloud/stars-lib-docs/');
+        window.open('http://106.14.53.137/stars-lib-docs/');
       },
     },
     {
